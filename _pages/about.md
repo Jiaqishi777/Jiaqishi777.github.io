@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Industrial Engineering and Operations Research, Columbia University
+subtitle: <small>Department of Industrial Engineering and Operations Research, Columbia University</small>
 
 
 profile:
