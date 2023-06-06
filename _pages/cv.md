@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/assets/pdf/JiaqiShi_Resume.pdf
+permalink: /assets/pdf/JiaqiShi_Resume.pdf
 title: CV
 nav: true
 nav_order: 4
