@@ -1,5 +1,8 @@
 ---
-layout: JiaqiShi_Resume.pdf
-permalink: /cv/
+layout: cv
+permalink: /cv/assets/pdf/JiaqiShi_Resume.pdf
 title: CV
+nav: true
+nav_order: 4
+cv_pdf: JiaqiShi_Resume.pdf
 ---
