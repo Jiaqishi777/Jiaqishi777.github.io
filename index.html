@@ -166,10 +166,6 @@
 
 <p>My research lies in revenue management and pricing, with a focus on reusable resources and choice models. I am also interested in data-driven decision making.</p>
 
-<p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" rel="external nofollow noopener" target="_blank">subreddit</a>.</p>
-
-<p>Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
-
           </div>
 
           <!-- News -->
@@ -230,7 +226,7 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
 
         <!-- Entry bib key -->
         <div id="elmachtoub2023power" class="col-sm-8">
@@ -254,6 +250,7 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/abs/2302.11723" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
           </div>
           
@@ -262,7 +259,11 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We consider the problem of pricing a reusable resource service system. Potential customers arrive according to a Poisson process and purchase the service if their valuation exceeds the price. If no units are available, customers immediately leave. Serving a customer corresponds to using one unit for an exponential service time. The objective is to maximize the steady-state revenue rate.
+Although an optimal policy is fully dynamic, we provide two main results that show a simple static policy is universally near-optimal for any service rate, arrival rate, and number of units in the system. When there is one class of customers who have a monotone hazard rate (MHR) valuation distribution, we prove that a static pricing policy guarantees 90.2% of the optimal policy. When there are multiple classes of customers, we prove that static pricing guarantees 78.9% of the optimal policy.</p>
+          </div>
         </div>
       </div>
 </li>
