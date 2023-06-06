@@ -26,5 +26,3 @@ My research lies in revenue management and pricing, with a focus on reusable res
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com).
 
 Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
