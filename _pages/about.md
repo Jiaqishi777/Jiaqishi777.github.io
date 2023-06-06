@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: about me
 permalink: /
 subtitle: <small>Department of Industrial Engineering and Operations Research, Columbia University</small>
 
