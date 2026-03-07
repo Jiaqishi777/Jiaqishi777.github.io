@@ -21,4 +21,4 @@ social: true  # includes social icons at the bottom of the page
 ---
  Welcome to my website! My name is Jiaqi Shi (施家奇 in Chinese) and I am a fourth-year PhD student in the Department of IEOR at Columbia University. I am fortunate to be advised by Prof. <a href="http://www.columbia.edu/~ae2516/">Adam Elmachtoub</a>. Previously, I received a B.S. in Mathematics from Nanjing University, followed by a M.S. in Operations Research from Columbia University.
 
-My research lies in revenue management and pricing, with a focus on reusable resources and choice models. I am also interested in data-driven decision making and market design.
+My research lies in revenue management and pricing, with a focus on reusable resources and opaque products. I am also interested in data-driven decision making and market design.
