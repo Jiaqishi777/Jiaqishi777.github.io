@@ -117,6 +117,35 @@ body.sticky-bottom-footer {
   width: 100%;
 }
 
+.about-intro {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+.about-intro > .profile {
+  width: 100%;
+  min-width: 0;
+}
+.about-intro > .about-intro-content {
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .about-intro.has-profile {
+    grid-template-columns: minmax(0, 1fr) 35%;
+    grid-template-areas: "content profile";
+  }
+  .about-intro.has-profile > .profile {
+    grid-area: profile;
+  }
+  .about-intro.has-profile > .about-intro-content {
+    grid-area: content;
+  }
+  .about-intro.has-profile.profile-left {
+    grid-template-columns: 35% minmax(0, 1fr);
+    grid-template-areas: "profile content";
+  }
+}
 /******************************************************************************
  * Publications
  ******************************************************************************/
