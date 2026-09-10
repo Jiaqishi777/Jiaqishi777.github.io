@@ -33,7 +33,41 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
+// Keep the introduction in its own column beside the profile photo.
+.about-intro {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+
+  > .profile {
+    width: 100%;
+    min-width: 0;
+  }
+
+  > .about-intro-content {
+    min-width: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-intro.has-profile {
+    grid-template-columns: minmax(0, 1fr) 35%;
+    grid-template-areas: "content profile";
+
+    > .profile {
+      grid-area: profile;
+    }
+
+    > .about-intro-content {
+      grid-area: content;
+    }
+
+    &.profile-left {
+      grid-template-columns: 35% minmax(0, 1fr);
+      grid-template-areas: "profile content";
+    }
+  }
+}
 
 
 /******************************************************************************
