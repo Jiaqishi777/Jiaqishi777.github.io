@@ -1,4 +1,4 @@
-- Finalist, INFORMS IBM Service Science Best Student Paper Award, 2025
+- Finalist, INFORMS Service Science Best Student Paper Award, 2025
 
 - Cheung-Kong Innovation Doctoral Fellow, 2024–2026
 
