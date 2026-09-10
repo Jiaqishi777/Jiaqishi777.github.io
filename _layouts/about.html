@@ -54,9 +54,35 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Research</a></h2>
-            {%- include selected_papers.html %}
+            <section class="mt-5" aria-labelledby="research">
+              <h2 id="research" class="border-bottom pb-2 mb-4">Research</h2>
+              {%- include selected_papers.html %}
+            </section>
           {%- endif %}
+
+          <section class="mt-5" aria-labelledby="awards">
+            <h2 id="awards" class="border-bottom pb-2 mb-4">Honors and Awards</h2>
+            {% capture awards_content %}{% include homepage/awards.md %}{% endcapture %}
+            {{ awards_content | markdownify }}
+          </section>
+
+          <section class="mt-5" aria-labelledby="talks">
+            <h2 id="talks" class="border-bottom pb-2 mb-4">Conference Talks</h2>
+            {% capture talks_content %}{% include homepage/talks.md %}{% endcapture %}
+            {{ talks_content | markdownify }}
+          </section>
+
+          <section class="mt-5" aria-labelledby="service">
+            <h2 id="service" class="border-bottom pb-2 mb-4">Professional Service</h2>
+            {% capture service_content %}{% include homepage/service.md %}{% endcapture %}
+            {{ service_content | markdownify }}
+          </section>
+
+          <section class="mt-5" aria-labelledby="teaching">
+            <h2 id="teaching" class="border-bottom pb-2 mb-4">Teaching</h2>
+            {% capture teaching_content %}{% include homepage/teaching.md %}{% endcapture %}
+            {{ teaching_content | markdownify }}
+          </section>
 
           <!-- Social -->
           {%- if page.social %}
