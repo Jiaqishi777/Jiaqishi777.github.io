@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/Jiaqi_Shi_CV_2026.8.pdf
+permalink: /assets/pdf/Jiaqi_Shi_CV_2026.9.pdf
 title: CV
 nav: true
 nav_order: 4
