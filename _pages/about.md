@@ -23,4 +23,4 @@ social: true  # includes social icons at the bottom of the page
 
  My research focuses on revenue management and pricing. I combine tools from queueing theory and optimization to develop simple, implementable policies with strong performance guarantees, with applications to reusable resources, vehicle sharing networks, and opaque products. I am also interested in pricing and operational decisions in markets shaped by AI.
 
-**I am on the 2026-2027 academic job market!**
+**I am on the 2026-2027 job market!**
